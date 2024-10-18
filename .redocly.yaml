@@ -1,0 +1,6 @@
+apis:
+  museum:
+    root: ./openapi/museum.yaml
+
+  pet-store:
+    root: ./openapi/pet-store.yaml

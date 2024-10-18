@@ -1,0 +1,14 @@
+{
+  "name": "redocly-output",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "files": [
+    "**/*.{json,yaml}"
+  ],
+  "scripts": {
+    "build": "npx @redocly/cli bundle -o ./generated/"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^1.25.7"
+  }
+}
