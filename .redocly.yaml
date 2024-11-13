@@ -1,6 +1,12 @@
 apis:
+  museum@json:
+    root: openapi/museum.yaml
+    output: dist/museum.json
+
   museum:
-    root: ./openapi/museum.yaml
+    root: openapi/museum.yaml
+    output: dist/museum.yaml
 
   pet-store:
-    root: ./openapi/pet-store.yaml
+    root: openapi/pet-store.yaml
+    output: dist/museum.yaml

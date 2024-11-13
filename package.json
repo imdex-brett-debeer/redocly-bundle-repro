@@ -6,9 +6,9 @@
     "**/*.{json,yaml}"
   ],
   "scripts": {
-    "build": "npx @redocly/cli bundle -o ./generated/"
+    "build": "npx @redocly/cli bundle openapi/* -o ./generated/"
   },
   "devDependencies": {
-    "@redocly/cli": "^1.25.7"
+    "@redocly/cli": "^1.25.11"
   }
 }
